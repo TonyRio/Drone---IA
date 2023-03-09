@@ -1,3 +1,10 @@
 
 drone_object_detection-main/yolov3.cfg
 drone_object_detection-main/yolov3.weights
+Master-DRONE/__MACOSX/._coco.names
+Master-DRONE/__MACOSX/._yolov3.cfg
+Master-DRONE/__MACOSX/._yolov3.weights
+Master-DRONE/coco.names
+Master-DRONE/yolov3.weights
+Master-DRONE/yolov3.cfg
+Master-DRONE/yolov3.weights
