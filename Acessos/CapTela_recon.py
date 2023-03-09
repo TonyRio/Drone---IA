@@ -7,9 +7,9 @@ import time
 os.system("adb shell wm size 1080x1920")
 
 # Defina o nome do arquivo de saída e o caminho onde será salvo
-output_path = "C:\lixo\\"
-output_name = "tela"
-output_format = ".png"
+#output_path = "C:\lixo\\"
+#output_name = "tela"
+#output_format = ".png"
 
 # Defina a taxa de captura de tela (em segundos)
 capture_rate = 0.1
@@ -33,8 +33,8 @@ while True:
     faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
 
     # Salve a imagem com os retângulos desenhados em um arquivo
-    output_file = output_path + output_name + str(int(time.time())) + output_format
-    cv2.imwrite(output_file, img)
+    #output_file = output_path + output_name + str(int(time.time())) + output_format
+    #cv2.imwrite(output_file, img)
 
     # Espere o tempo definido antes de capturar a próxima tela
     time.sleep(capture_rate)

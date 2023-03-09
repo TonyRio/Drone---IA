@@ -22,7 +22,7 @@ MODEL_BASE_PATH = "yolo-coco"
 # receber os argumentos para o script
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--input", required=True, help="Endereço do streaming do drone")
-streaming_path = vars(ap.parse_args())['input']
+streaming_path =   os.system("adb pull /sdcard/screen.png") #vars(ap.parse_args())['input']
 
 # extrair os nomes das classes a partir do arquivo
 print("[+] Carregando labels das classes treinadas...")
